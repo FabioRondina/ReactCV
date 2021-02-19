@@ -8,7 +8,6 @@ class TestSpace extends Component {
       <h1 className="subtopic">TestSpace playground</h1>
       <ReactTypingEffect className="typingeffect" 
         text={['Finally completed the lab','seems pretty straigh forward so far']} 
-        text={['Finally completed the lab','seems pretty straigh forward so far']} 
         speed={100} 
         eraseDelay={700}/>
       </div>

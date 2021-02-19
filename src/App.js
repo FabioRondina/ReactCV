@@ -13,6 +13,7 @@ import Home  from './contents/Home';
 import About from './contents/About';
 import Education from './contents/Education';
 import Skills from './contents/Skills';
+import Contact from './contents/Contact';
 import TestSpace from './contents/TestSpace';
 
 function App() {
@@ -35,6 +36,10 @@ function App() {
       <Route exact path="/Skills">
           <Social />
           <Skills />
+      </Route>  
+      <Route exact path="/Contact">
+          <Social />
+          <Contact />
       </Route>    
       <Route exact path="/TestSpace">
           <Social />
